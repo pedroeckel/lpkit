@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lpkit"
-version = "0.1.5"
+version = "0.2.0"
 description = "Ferramenta para visualização gráfica e resolução de modelos de Programação Linear em duas variáveis, incluindo simplex e zona viável."
 readme = "README.md"
 license = { text = "MIT" }
