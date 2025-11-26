@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="lpkit",
-    version="0.2.0",
+    version="0.2.1",
     description="Ferramentas para visualização e resolução de modelos de Programação Linear.",
     author="Pedro Eckel",
     author_email="pedroeckel@ufpr.br",

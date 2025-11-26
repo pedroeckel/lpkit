@@ -4,10 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lpkit"
-version = "0.2.0"
+version = "0.2.1"
 description = "Ferramenta para visualização gráfica e resolução de modelos de Programação Linear em duas variáveis, incluindo simplex e zona viável."
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
+
 authors = [
     { name = "Pedro Eckel", email = "contato@pedroeckel.com" }
 ]
@@ -34,7 +35,6 @@ classifiers = [
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Scientific/Engineering",
     "Topic :: Scientific/Engineering :: Mathematics",
@@ -47,4 +47,4 @@ Repository = "https://github.com/pedroeckel/lpkit"
 Issues = "https://github.com/pedroeckel/lpkit/issues"
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
