@@ -1,4 +1,5 @@
-# Simplex Module
+__version__ = "0.1.4"
+
 from .simplex.solver import solve_with_simplex
 from .simplex.utils import (
     build_simplex_table,
